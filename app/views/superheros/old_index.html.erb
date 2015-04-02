@@ -1,0 +1,22 @@
+<% @superheros.each do |superhero| %>
+<h1>
+	<%= superhero["id"] %>
+	<%= superhero["name"] %>
+	<%= superhero["first_name"] %>
+	<%= superhero["last_name"] %>
+	<%= superhero["ability"] %>
+	<%= superhero["gender"] %>
+	<%= superhero["city"] %>	
+	<%= superhero["occupation"] %>			
+</h1>
+<% end %>
+
+<h1><%= @superhero.full_name %></h1>
+<h1><%= @superhero.id %></h1>
+<h1><%= @superhero.name %></h1>
+<h1><%= @superhero.gender %></h1>
+<h1><%= @superhero.ability %></h1>
+<h1><%= @superhero.occupation %></h1>
+<h1><%= @superhero.city %></h1>
+<h1><%= @superhero.publisher %></h1>
+

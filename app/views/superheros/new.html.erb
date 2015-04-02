@@ -1,0 +1,19 @@
+<h1> Create Superhero </h1>
+<%= form_tag "/superheros"  do %>
+  <%= label_tag :name %>
+  <%= text_field_tag :name %>
+  <%= label_tag :ability %>
+  <%= text_field_tag :ability %>
+  <%= label_tag :first_name %>
+  <%= text_field_tag :first_name %>
+  <%= label_tag :last_name %>
+  <%= text_field_tag :last_name %>
+  <%= label_tag :city %>
+  <%= text_field_tag :city %>
+  <%= label_tag :occupation %>
+  <%= text_field_tag :occupation %>  
+  <%= label_tag :publisher %>
+  <%= text_field_tag :publisher %>  
+
+  <%= submit_tag "Create Superhero" %>
+<% end %>
